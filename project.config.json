@@ -1,0 +1,121 @@
+{
+  "description": "山居不记年 · 原生 Canvas 2D 双端零构建工程",
+  "packOptions": {
+    "ignore": [
+      {
+        "value": "docs",
+        "type": "folder"
+      },
+      {
+        "value": "scripts",
+        "type": "folder"
+      },
+      {
+        "value": ".git",
+        "type": "folder"
+      },
+      {
+        "value": ".mutation-bak",
+        "type": "folder"
+      },
+      {
+        "value": ".workbuddy",
+        "type": "folder"
+      },
+      {
+        "value": "README.md",
+        "type": "file"
+      },
+      {
+        "value": "package.json",
+        "type": "file"
+      },
+      {
+        "value": ".gitignore",
+        "type": "file"
+      },
+      {
+        "value": ".md",
+        "type": "suffix"
+      },
+      {
+        "value": "preview/index.html",
+        "type": "file"
+      },
+      {
+        "value": "preview/style.css",
+        "type": "file"
+      },
+      {
+        "value": "preview/shim.js",
+        "type": "file"
+      },
+      {
+        "value": "preview/manifest.js",
+        "type": "file"
+      },
+      {
+        "value": "preview/boot-web.js",
+        "type": "file"
+      },
+      {
+        "value": "preview/demo",
+        "type": "folder"
+      },
+      {
+        "value": ".assets-raw",
+        "type": "folder"
+      },
+      {
+        "value": ".imgtools",
+        "type": "folder"
+      },
+      {
+        "value": ".gitattributes",
+        "type": "file"
+      },
+      {
+        "value": "tests",
+        "type": "folder"
+      },
+      {
+        "value": "preview/assets/images/bg_map_valley.png",
+        "type": "file"
+      }
+    ],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": false,
+    "minified": false,
+    "uploadWithSourceMap": true,
+    "ignoreUploadUnusedFiles": true,
+    "compileWorklet": false,
+    "uglifyFileName": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "localPlugins": false,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "condition": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "game",
+  "libVersion": "3.5.0",
+  "appid": "wxf59f9386a9859728",
+  "projectname": "shanjv",
+  "simulatorType": "wechat",
+  "condition": {},
+  "simulatorPluginLibVersion": {},
+  "editorSetting": {},
+  "isGameTourist": false
+}

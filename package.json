@@ -1,0 +1,18 @@
+{
+  "name": "shanjv",
+  "version": "0.1.7",
+  "private": true,
+  "description": "山居不记年 · 微信小游戏（原生 Canvas 2D，双端零构建）",
+  "scripts": {
+    "dev": "node scripts/serve.js",
+    "data": "node scripts/bundle-data.js",
+    "preflight": "node scripts/preflight.js",
+    "test": "node scripts/preflight.js && node tests/contract.test.js && node tests/qinghuan.test.js && node tests/save.test.js && node tests/intro.test.js && node tests/audio.test.js && node tests/eventRoll.test.js && node tests/closing.test.js && node tests/particles.test.js && node tests/playthrough.test.js && node scripts/smoke.js && node scripts/smoke-web.js",
+    "test:fast": "node tests/contract.test.js && node tests/qinghuan.test.js && node tests/save.test.js && node tests/intro.test.js && node tests/audio.test.js && node tests/eventRoll.test.js && node tests/closing.test.js && node tests/particles.test.js && node tests/playthrough.test.js",
+    "test:playthrough": "node tests/playthrough.test.js",
+    "test:mutation": "node tests/mutation.test.js",
+    "test:mutation:fast": "node tests/mutation.test.js --fast",
+    "check": "node scripts/check-project.js && node scripts/check-data.js && node scripts/check-manifest.js",
+    "check:project": "node scripts/check-project.js"
+  }
+}

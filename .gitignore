@@ -1,0 +1,36 @@
+# 依赖与构建
+node_modules/
+dist/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志与临时
+*.log
+*.tmp
+.cache/
+
+# 美术原始大图（只入库压缩后的发布版）
+preview/assets/raw/
+**/*.psd
+**/*.ai
+
+# 编辑器
+.vscode/
+.idea/
+
+# 环境
+.env
+.env.local
+
+# 开发者工具本地配置（不入库）
+project.private.config.json
+
+# 突变测试临时备份（tests/mutation.test.js 自动清理）
+.mutation-bak/
+
+# 图像生成原始大图（只入库压缩后的成品）
+.assets-raw/
+.imgtools/
